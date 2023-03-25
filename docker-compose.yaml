@@ -1,6 +1,6 @@
 version: '3.9'
 services:
   web:
-    build: .
+    image: 'ritesh1999/django-todo-cicd:latest'
     ports:
       - "8001:8001"
